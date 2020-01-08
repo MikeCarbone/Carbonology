@@ -46,3 +46,21 @@
     justify-content: space-between;
     padding: 40px 40px;
 }
+
+@media (max-width: 700px) {
+    .footer__copy {
+        padding: 25px 20px;
+    }
+    
+    .footer__copywrite {
+        margin: 25px auto;
+    }
+    
+    .footer__love {
+        margin-top: 25px;
+    }
+    
+    .footer__twitter {
+        margin: 25px auto;
+    }
+}

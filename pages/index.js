@@ -3,6 +3,7 @@ import CustomHead from '../components/newHeadAllPages';
 
 import Header from '../components/header'
 import Footer from '../components/footer'
+import EndeavorTray from '../components/endeavor-tray';
 
 export default () => (
     <>
@@ -20,6 +21,7 @@ export default () => (
                     </Link>
                     <img draggable="false" className="article-huge__img" src="/kids_bw.jpg" />
                 </div>
+                <EndeavorTray id="endeavors" className="home__endeavor-tray" />
             </div>
         </main>
         <Footer />
