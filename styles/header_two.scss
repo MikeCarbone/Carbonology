@@ -38,3 +38,13 @@
     content: "<";
     padding: 0 15px 0 0;
 }
+
+@media (max-width: 700px) {
+    .header-two__logo-text {
+        font-size: 1.5rem;
+    }
+
+    .header-two__return {
+        font-size: .7rem;
+    }
+}

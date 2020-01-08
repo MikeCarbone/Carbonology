@@ -23,3 +23,17 @@
 
     --resp-flex-direction: row;
 }
+
+@media (max-width: 700px) {
+    :root {
+        --copy-size: 21px;
+        --very-small: .8rem;
+        --small: 1rem;
+        --med: 1.2rem;
+        --big: 1.4rem;
+        --very-big: 1.8rem;
+        --huge: 4rem;
+        
+        --resp-flex-direction: column;
+    }
+}

@@ -1,6 +1,7 @@
 .article-huge {
     border-bottom: 1px solid var(--border-light);
     display: flex;
+    flex-direction: var(--resp-flex-direction);
     padding: 15px;
 }
 
@@ -36,16 +37,30 @@
 }
 
 .article-huge__img {
+    border: 1px solid var(--faded-gold);
     display: block;
     height: 500px;
     margin: 0 auto;
     object-fit: cover;
     object-position: center;
-    padding-left: 15px;
+    margin-left: 15px;
     width: 50%;
 }
 
 .article-huge__btn {
     margin: 15px auto;
     width: 300px;
+}
+
+@media (max-width: 700px) {
+    .article-huge__left {
+        width: 100%;
+    }
+
+    .article-huge__img {
+        height: 150px;
+        order: -1;
+        margin: 0 auto;
+        width: 80%;
+    }
 }

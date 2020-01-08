@@ -8,7 +8,7 @@ export default () => (
     <>
         <CustomHead />
         <Header />
-        <main className="home wrap-no-hor">
+        <main className="home">
             <div className="home__container">
                 <div className="article-huge">
                     <Link href="/mission">

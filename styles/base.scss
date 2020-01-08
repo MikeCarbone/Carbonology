@@ -127,3 +127,9 @@ html {
 .react-share__ShareButton {
     padding: 0 15px !important;
 }
+
+@media (max-width: 700px) {
+    .wrap {
+        padding: 10px;
+    }
+}
