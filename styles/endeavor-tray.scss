@@ -4,6 +4,10 @@
     padding: 40px 0 50px 0;
 }
 
+.endeavor-tray--no-top-border {
+    border-top: none;
+}
+
 .endeavor-tray__tray {
     display: flex;
     flex-wrap: wrap;
@@ -27,15 +31,28 @@
 }
 
 .endeavor-tray__endeavor-img {
+    filter: grayscale(1);
     margin: 0 0 auto 0;
+    transition: all .2s ease-in;
     width: 100%;
 }
 
+.endeavor-tray__endeavor-img:hover {
+    filter: grayscale(0);
+    transition: all .2s ease-in;
+}
+
 .endeavor-tray__btn {
+    border-bottom: none;
+    color: var(--faded);
     font-size: var(--small);
     font-weight: 300;
     margin: auto auto 0 auto;
     padding: 10px 0;
     text-align: center;
     width: 150px;
+}
+
+.endeavor-tray__btn:hover {
+    color: var(--black);
 }

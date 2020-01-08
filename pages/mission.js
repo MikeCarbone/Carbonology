@@ -9,12 +9,12 @@ export default () => (
         <CustomHead />
         <NextSeo
             title="MISSION | Carbonology"
-            description="Welcome to the creator's collective."
+            description="A collective of powerful minds, products, and resources..."
             canonical="https://www.canonical.ie/"
             openGraph={{
                 url: 'https://www.url.ie/a',
-                title: 'DOOR NUMBER 3',
-                description: 'Door number 3 or Door number 2?',
+                title: 'MISSION | Carbonology',
+                description: 'A collective of powerful minds, products, and resources...',
                 images: [
                 {
                     url: 'https://carbonology.now.sh/mission_carbonology.jpg',
@@ -23,7 +23,7 @@ export default () => (
                     alt: 'Mission, Carbonology',
                 }
                 ],
-                site_name: 'Mission',
+                site_name: 'MISSION | Carbonology',
             }}
             twitter={{
                 handle: '@carbnology',
