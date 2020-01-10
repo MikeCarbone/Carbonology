@@ -6,7 +6,7 @@ export default (props) => (
         <div className="endeavor-tray__tray">
             <div className="endeavor-tray__endeavor">
                 <img draggable="false" className="endeavor-tray__endeavor-img" src="/hottubLogo.png" alt="carbon collective" />
-                <Link href="/mission">
+                <Link href="/endeavor/hottub">
                     <a className="c__text-link endeavor-tray__btn">
                         LEARN MORE
                     </a>

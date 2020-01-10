@@ -1,0 +1,64 @@
+.endeavro-page{}
+
+.endeavor-page__img {
+    margin: 35px auto 0px auto;
+    padding: 0 50px 50px 50px;
+    width: 100%;
+}
+
+.endeavor-page__endeavor-text {
+    font-family: var(--font-decorative);
+    font-size: var(--huge);
+    text-align: center;
+}
+
+.endeavor-page__tray {
+    align-items: center;
+    border-bottom: 1px solid var(--faded-gold);
+    border-top: 1px solid var(--faded-gold);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.endeavor-page__status-text {
+    margin: auto auto auto 0;
+}
+
+.endeavor-page__status-text {
+    color: var(--faded);
+    display: inline-block;
+    font-size: var(--small);
+    font-weight: lighter;
+    margin: 0 10px 0 0;
+}
+
+.endeavor-page__status-label {
+    border-radius: 15px;
+    display: inline-block;
+    font-size: var(--very-small);
+    font-weight: lighter;
+    padding: 5px 10px;
+}
+
+.endeavor-page__status-label--active {
+    background-color: #D3F2C9;
+    color: #4D7541;
+}
+
+.endeavor-page__go-to {
+    font-size: var(--small);
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+.endeavor-page__start {
+    color: var(--faded);
+    font-size: var(--small);
+    font-weight: lighter;
+    margin: 0 0 0 auto;
+    text-transform: uppercase;
+}
+

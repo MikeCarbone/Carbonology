@@ -8,6 +8,7 @@
     color: var(--faded);
     font-size: var(--very-small);
     font-weight: lighter;
+    margin-right: auto;
     text-transform: uppercase;
     text-align: center;
 }
@@ -16,6 +17,7 @@
     color: var(--faded);
     font-size: var(--very-small);
     font-weight: lighter;
+    margin-left: auto;
     text-transform: uppercase;
     text-align: center;
     word-spacing: 2px;
@@ -41,10 +43,16 @@
 
 .footer__wrapper {
     align-items: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
     flex-direction: var(--resp-flex-direction);
     justify-content: space-between;
     padding: 40px 40px;
+}
+
+.footer__twitter {
+    margin: 0 auto;
+    width: 65%;
 }
 
 @media (max-width: 700px) {
@@ -57,10 +65,15 @@
     }
     
     .footer__love {
-        margin-top: 25px;
+        margin: 25px auto 0 auto;
     }
     
     .footer__twitter {
         margin: 25px auto;
+    }
+
+    .footer__wrapper {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
     }
 }

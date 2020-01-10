@@ -1,0 +1,118 @@
+.full-post {
+    animation: fadeIn 1s forwards;
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.full-post__header-zone {
+    align-items: center;
+    display: flex;
+}
+
+.full-post__header {
+    display: block;
+    font-family: var(--font-main);
+    font-size: var(--huge);
+    margin: 10px 0 20px -6px;
+    text-transform: uppercase;
+}
+
+.full-post__tag-zone {
+    margin: 0;
+}
+
+.full-post__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.full-post__links {
+    align-items: center;
+    display: flex;
+    flex-direction: var(--resp-flex-direction);
+    justify-content: space-between;
+    margin: 50px 0 15px 0;
+}
+
+.full-post__desc {
+    color: var(--black);
+    font-family: var(--font-main);
+    font-size: var(--med);
+    font-weight: lighter;
+}
+
+.full-post__tag {
+    background-color: var(--faded-yellow);
+    color: var(--dark);
+    display: inline-block;
+    font-family: var(--font-main);
+    font-size: var(--small);
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    margin: 0 10px 0 0;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.full-post__importants {
+    margin: 0 50px 0 0;
+    width: 100%;
+}
+
+.full-post__source {
+    flex-direction: column;
+    font-size: var(--small);
+    font-weight: normal;
+    margin: 0 0 0 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.full-post__source-name {
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 1px 0 0 0;
+    padding: 4px;
+}
+
+.full-post__content {
+    margin: 0 0 0 0;
+}
+
+.full-post__date {
+    color: var(--faded);
+    font-family: var(--font);
+    font-size: var(--smaller);
+    font-weight: lighter;
+}
+
+.full-post__img {
+    border-top: 1px solid var(--faded-gold);
+    max-height: 250px;
+    object-fit: cover;
+    object-position: center;
+    padding: 10px 0 0 0;
+    width: 350px;
+}
+
+.full-post__take {
+    margin: 50px 0 15px 0;
+    max-width: 800px;
+}
+
+.full-post__take-header {
+    border-left: 2px solid var(--gold);
+    font-family: var(--font-main);
+    font-weight: normal;
+    padding: 0 0 0 15px;
+    text-transform: uppercase;
+}
+
+.full-post__take-text {
+    color: var(--copy-color);
+    font-family: var(--font-copy);
+    line-height: 1.7;
+    margin: 15px 0 0 20px;
+}
