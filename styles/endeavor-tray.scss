@@ -43,14 +43,15 @@
 }
 
 .endeavor-tray__btn {
-    border-bottom: none;
+    border-bottom: 1px solid var(--gold);
     color: var(--faded);
+    display: inline-block;
     font-size: var(--small);
     font-weight: 300;
     margin: auto auto 0 auto;
     padding: 10px 0;
     text-align: center;
-    width: 150px;
+    width: 125px;
 }
 
 .endeavor-tray__btn:hover {
