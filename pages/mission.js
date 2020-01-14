@@ -11,12 +11,12 @@ export default () => {
             <Meta
                 pageTitle="MISSION"
                 description="A collective of powerful minds, products, and resources..."
-                img="https://carbonology.now.sh/mission_carbonology.jpg"
+                img="/images/mission/mission_carbonology.jpg"
             />
             <HeaderTwo />
             <main className="article">
                 <div className="article__head">
-                    <img alt="" className="article__img" draggable="false" src="/kids_bw.jpg" />
+                    <img alt="" className="article__img" draggable="false" src="/images/mission/kids_bw.jpg" />
                     <div className="article__head-left wrap">
                         <h1 className="article__title">MISSION</h1>
                         <p className="article__subtitle"><strong>Carbonology</strong> - A collective of powerful minds, products, and resources that strives to understand and optimize the business-building process through creation.</p>

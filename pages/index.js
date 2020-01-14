@@ -19,7 +19,7 @@ export default () => (
                             <button className="article-huge__btn c__btn">READ ARTICLE</button>
                         </a>
                     </Link>
-                    <img draggable="false" className="article-huge__img" src="/kids_bw.jpg" />
+                    <img draggable="false" className="article-huge__img" src="/images/mission/kids_bw.jpg" />
                 </div>
                 <EndeavorTray id="endeavors" className="home__endeavor-tray" />
             </div>
