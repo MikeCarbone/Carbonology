@@ -39,7 +39,7 @@ export default () => (
             <div className="endeavor-page__info-block">
               <h2 className="endeavor-page__text-title">COLLABORATORS</h2>
               <div className="endeavor-page__collaborators">
-                <DevProfile className="endeavor-page__dev" name="Sarah Bray" role="Project Manager" imgSrc="/images/people/sarah.png" outlink="#" />
+                <DevProfile className="endeavor-page__dev" name="Sarah Bray" role="Project Manager" imgSrc="/images/people/sarah.png" outlink="https://www.linkedin.com/in/sarah-bray-0b910b11b/" />
                 <DevProfile className="endeavor-page__dev" name="Mike Carbone" role="Back-End Developer" imgSrc="/images/people/mike.jpg" outlink="https://twitter.com/crbnlgy" />
                 <DevProfile className="endeavor-page__dev" name="Veronica Lin" role="UX Designer" imgSrc="/images/people/veronica.png" outlink="#" />
                 <DevProfile className="endeavor-page__dev" name="Rob Nashed" role="UI Designer" imgSrc="/images/people/rob.png" outlink="#" />
