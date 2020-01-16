@@ -44,7 +44,7 @@ export default () => (
                 <DevProfile className="endeavor-page__dev" name="Veronica Lin" role="UX Designer" imgSrc="/images/people/veronica.png" outlink="#" />
                 <DevProfile className="endeavor-page__dev" name="Rob Nashed" role="UI Designer" imgSrc="/images/people/rob.png" outlink="#" />
                 <DevProfile className="endeavor-page__dev" name="Woo Sung" role="Design Technologist" imgSrc="/images/people/woo.png" outlink="https://www.linkedin.com/in/wooyoung-song-661345136/" />
-                <DevProfile className="endeavor-page__dev" name="Clay Tercek" role="Front-End Developer" imgSrc="/images/people/clay.png" outlink="#" />
+                <DevProfile className="endeavor-page__dev" name="Clay Tercek" role="Front-End Developer" imgSrc="/images/people/clay.png" outlink="https://claytercek.com/" />
               </div>
             </div>
             <div className="endeavor-page__info-block">
