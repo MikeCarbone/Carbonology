@@ -1,15 +1,26 @@
-.endeavro-page{}
+.endeavor-page{}
 
 .endeavor-page__img {
-    margin: 35px auto 0px auto;
+    display: block;
+    margin: 15px auto 0px auto;
+    max-height: 350px;
     padding: 0 50px 50px 50px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .endeavor-page__endeavor-text {
     font-family: var(--font-decorative);
     font-size: var(--huge);
     text-align: center;
+}
+
+.endeavor-page__endeavor-title {
+    font-family: var(--font-decorative);
+    font-size: var(--huge);
+    margin: 35px auto 0px auto;
+    padding: 0 50px 50px 50px;
+    text-align: center;
+    width: 100%;
 }
 
 .endeavor-page__tray {
@@ -47,11 +58,20 @@
     color: #4D7541;
 }
 
+.endeavor-page__status-label--inactive {
+    background-color: #F2C9C9;
+    color: #754141;
+}
+
 .endeavor-page__go-to {
     font-size: var(--small);
     margin: 0 auto;
     text-align: center;
     width: 50%;
+}
+
+.endeavor-page__go-to--hidden {
+    visibility: hidden;
 }
 
 .endeavor-page__start {
@@ -97,10 +117,15 @@
     filter: grayscale(1);
     height: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: left;
     padding: 5px;
     transition: all .2s ease-in;
     width: 49%;
+}
+
+.endeavor-page__media-img--full {
+    object-position: center;
+    width: 100%;
 }
 
 .endeavor-page__media-img:hover {
@@ -109,16 +134,42 @@
 }
 
 .endeavor-page__dev {
-    margin: 0 25px;
+    margin: 0 50px 25px 0px;
 }
 
 .endeavor-page__collaborators {
+    align-items: start;
+    display: flex;
+    flex-direction: var(--resp-flex-direction);
+    flex-wrap: wrap;
+}
+
+.endeavor-page__out-link {
+    font-weight: 300;
+    margin-right: 50px; 
+}
+
+.endeavor-page__awards {
     display: flex;
     flex-direction: var(--resp-flex-direction);
 }
 
-.endeavor-page__collaborators .endeavor-page__dev:first-child {
-    margin-left: 0;
+.endeavor-page__award {
+    margin: 0 100px 0 0;
+}
+
+.endeavor-page__award-img {
+    display: block;
+    height: 200px;
+    margin: 0 auto 10px auto;
+}
+
+.endeavor-page__award-link {
+    display: block;
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+    width: 150px;
 }
 
 @media (max-width: 700px) {
@@ -133,7 +184,7 @@
     }
 
     .endeavor-page__start {
-        margin: 0 auto;
+        margin: 10px auto 0 auto;
     }
 
     .endeavor-page__go-to {
@@ -147,6 +198,18 @@
     
     .endeavor-page__collaborators .endeavor-page__dev:first-child {
         margin: 25px auto;
+    }
+
+    .endeavor-page__go-to--hidden {
+        display: none;
+    }
+
+    .endeavor-page__media-img {
+        object-position: center;
+    }
+
+    .endeavor-page__award {
+        margin: 0 auto 100px auto;
     }
 }
 

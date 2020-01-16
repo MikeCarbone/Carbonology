@@ -4,7 +4,10 @@ import CustomHead from '../components/newHeadAllPages';
 import ShareBar from '../components/share-bar';
 import Meta from '../utils/meta'
 
+import Image from '../components/image';
+
 export default () => {
+    const placeholderHero = <img src="/images/mission/LAZY-kids_bw.jpg" className="article__img lazy-img" />
     return (
         <>
             <CustomHead />
@@ -16,7 +19,7 @@ export default () => {
             <HeaderTwo />
             <main className="article">
                 <div className="article__head">
-                    <img alt="" className="article__img" draggable="false" src="/images/mission/kids_bw.jpg" />
+                    <Image lazy alt="" className="article__img" draggable="false" src="/images/mission/kids_bw.jpg" />
                     <div className="article__head-left wrap">
                         <h1 className="article__title">MISSION</h1>
                         <p className="article__subtitle"><strong>Carbonology</strong> - A collective of powerful minds, products, and resources that strives to understand and optimize the business-building process through creation.</p>

@@ -4,11 +4,18 @@ import CustomHead from '../components/newHeadAllPages';
 import Header from '../components/header'
 import Footer from '../components/footer'
 import EndeavorTray from '../components/endeavor-tray';
+import Image from '../components/image';
+import Meta from '../utils/meta'
 
 export default () => (
     <>
         <CustomHead />
         <Header />
+        <Meta
+            pageTitle="WELCOME"
+            description="A collective of powerful minds, products, and resources..."
+            img="/images/mission/mission_carbonology.jpg"
+        />
         <main className="home">
             <div className="home__container">
                 <div className="article-huge">
@@ -19,7 +26,7 @@ export default () => (
                             <button className="article-huge__btn c__btn">READ ARTICLE</button>
                         </a>
                     </Link>
-                    <img draggable="false" className="article-huge__img" src="/images/mission/kids_bw.jpg" />
+                    <Image lazy className="article-huge__img" src="/images/mission/kids_bw.jpg" />
                 </div>
                 <EndeavorTray id="endeavors" className="home__endeavor-tray" />
             </div>

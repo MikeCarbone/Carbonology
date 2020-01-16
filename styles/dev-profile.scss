@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 200px;
+    width: 180px;
 }
 
 .dev-profile__img {
@@ -17,7 +17,7 @@
 
 .dev-profile__img:hover {
     box-shadow: 0px 17px 24px -12px black;
-    filter: grayscale(.45);
+    filter: grayscale(.15);
     transition: all .2s ease-in;
 }
 
